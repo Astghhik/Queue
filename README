@@ -1,0 +1,5 @@
+# Queue
+A queue is an data structure that contains a collection of elements. Queue implements the FIFO mechanism i.e the element that is inserted first is also deleted first. In other words, the least recently added element is removed first in a queue.
+We maintain two pointers, front, and rear. The front points to the first item of the queue and rear points to the last item.
+ • enQueue(): This operation adds a new node after the rear and moves the rear to the next node.
+ • deQueue(): This operation removes the front node and moves the front to the next node.
